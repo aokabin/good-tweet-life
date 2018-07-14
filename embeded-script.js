@@ -4,10 +4,8 @@ const main =  function() {
   const host = location.hostname;
   const path = location.pathname;
 
-  if (host === "twitter.com" && path === "/search") {
-    setInterval(repeat, 5000);
-    document.getElementsByClassName("Grid-cell")[0].style.display = "none";
-  }
+  setInterval(repeat, 5000);
+  document.getElementsByClassName("Grid-cell")[0].style.display = "none";
 };
 
 const counter = function(str,seq){
