@@ -1,3 +1,5 @@
+let tweetDialog = document.getElementById("Tweetstorm-dialog");
+
 const main =  function() {
   const host = location.hostname;
   const path = location.pathname;
@@ -26,7 +28,7 @@ const removeSpam = function() {
 }
 
 const repeat = function(){
-  if (window.scrollY === 0) {
+  if (window.scrollY === 0 && (tweetDialog.style.display === "" || tweetDialog.style.display === "none") ) {
     var evt = document.createEvent("HTMLEvents");
     evt.initEvent("uiShortcutGotoTopOfScreen", true, true);
     document.dispatchEvent(evt);
