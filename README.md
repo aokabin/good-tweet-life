@@ -23,3 +23,30 @@ This extension has that feathres:
 - no limited auto load tweet
 
 So! You can get pretty good tweet life on twitter.com!
+
+## How do you use?
+
+It is not provided on Chrome Extension Store.
+Because I have no money. (We have to pay $5 if we want to release extension store)
+
+But don't worry, you can use it. because it is open source software.
+
+### 1. How to install your chrome.
+
+First, you clone or download this extension.
+
+```
+$ git clone https://github.com/aokabin/good-tweet-life.git
+```
+
+After clone, you open your chrome browser.
+And go to this page → chrome://extensions/
+
+So you enable developer mode.
+
+After that, you click 'import unpacked extention'
+So you choose this extension directory.
+
+And then, you enable to use this extension.
+
+Finally, you canuse this! Great!
